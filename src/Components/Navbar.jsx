@@ -46,8 +46,8 @@ function Navbar() {
                   <a href="/">
                   <img
                     className="h-8 w-auto"
-                    src="../src/images/Saymar-logo-2.png"
-                    alt="Your Company"
+                    src="/images/Saymar-logo-2.png"
+                    alt="Saymar"
                     />
                     </a>
                 </div>

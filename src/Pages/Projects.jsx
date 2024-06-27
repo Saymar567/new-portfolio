@@ -11,7 +11,7 @@ function Projects() {
                 <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
                     <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://bananaspawn.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="./src/images/Proyectos/pawn.png" />
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/pawn.png" />
                         </a>
                         <div className="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
@@ -25,7 +25,7 @@ function Projects() {
                     </article>
                     <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://spontaneous-pothos-5f6b8c.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="./src/images/Proyectos/logo-nonna.png" />
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/logo-nonna.png" />
                         </a>
                         <div className="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
@@ -39,7 +39,7 @@ function Projects() {
                     </article>
                     <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://videoclubsantutxu.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="./src/images/Proyectos/Videoclub.jpg" />
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/Videoclub.jpg" />
                         </a>
                         <div className="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
@@ -53,7 +53,7 @@ function Projects() {
                     </article>
                     <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://pasos.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="./src/images/Proyectos/pasos.png" />
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/pasos.png" />
                         </a>
                         <div className="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
@@ -67,7 +67,7 @@ function Projects() {
                     </article>
                     <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://roaring-florentine-1333cd.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="./src/images/Proyectos/ping-pong.jpg" />
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/ping-pong.jpg" />
                         </a>
                         <div className="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
