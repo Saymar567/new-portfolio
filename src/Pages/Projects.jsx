@@ -19,7 +19,7 @@ function Projects() {
                             <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">My first project with Angular. Is a simple web in which there's displayed a list of products, which you can do the CRUD (create, read, update and delete) operations. It is connected to a database in MongoDB.</h3>
                             <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
                                 <span>9 July, 2024</span>
-                                <span>Lots of meals</span>
+                                <span>Lots of products</span>
                             </div>
                         </div>
                     </article>
