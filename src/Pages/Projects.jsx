@@ -86,7 +86,7 @@ function Projects() {
                         <div className="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
                             <a rel="noopener noreferrer" href="https://angular-project-f-b.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">ANGULAR PROJECT</a>
-                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">My first project with Angular. Is a simple web in which there's displayed a list of products, which you can do the CRUD (create, read, update and delete) operations. It is connected to a database in MongoDB</h3>
+                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">My first project with Angular. Is a simple web in which there's displayed a list of products, which you can do the CRUD (create, read, update and delete) operations. It is connected to a database in MongoDB.</h3>
                             <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
                                 <span>9 July, 2024</span>
                                 <span>Lots of meals</span>
