@@ -10,6 +10,48 @@ function Projects() {
                 </div>
                 <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
                     <article className="flex flex-col dark:bg-gray-50">
+                        <a rel="noopener noreferrer" href="https://angular-project-f-b.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/Angular_full_color_logo.svg.png" />
+                        </a>
+                        <div className="flex flex-col flex-1 p-6">
+                            <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                            <a rel="noopener noreferrer" href="https://angular-project-f-b.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">ANGULAR PROJECT</a>
+                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">My first project with Angular. Is a simple web in which there's displayed a list of products, which you can do the CRUD (create, read, update and delete) operations. It is connected to a database in MongoDB.</h3>
+                            <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                                <span>9 July, 2024</span>
+                                <span>Lots of meals</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article className="flex flex-col dark:bg-gray-50">
+                        <a rel="noopener noreferrer" href="https://roaring-florentine-1333cd.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/ping-pong.jpg" />
+                        </a>
+                        <div className="flex flex-col flex-1 p-6">
+                            <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                            <a rel="noopener noreferrer" href="https://roaring-florentine-1333cd.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">DE-PING-A-PONG APP</a>
+                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">A very challenging project in which I created the backend with MongoDB, merging it with my partner into the frontend in order to display the information and having the chance to sign-up, login, and do the CRUD operations.</h3>
+                            <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                                <span>June 7, 2024</span>
+                                <span>+100 M people playing ping-pong</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article className="flex flex-col dark:bg-gray-50">
+                        <a rel="noopener noreferrer" href="https://videoclubsantutxu.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
+                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/Videoclub.jpg" />
+                        </a>
+                        <div className="flex flex-col flex-1 p-6">
+                            <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                            <a rel="noopener noreferrer" href="https://videoclubsantutxu.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">VIDEO-CLUB SANTUTXU</a>
+                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">One of the projects I've liked the most. As a movie lover, creating an API from TMDB and also creating a new one in Supabase was really fun and instructive.</h3>
+                            <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                                <span>May 17, 2024</span>
+                                <span>Almost 10000 films</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://bananaspawn.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
                             <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/pawn.png" />
                         </a>
@@ -37,20 +79,7 @@ function Projects() {
                             </div>
                         </div>
                     </article>
-                    <article className="flex flex-col dark:bg-gray-50">
-                        <a rel="noopener noreferrer" href="https://videoclubsantutxu.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/Videoclub.jpg" />
-                        </a>
-                        <div className="flex flex-col flex-1 p-6">
-                            <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-                            <a rel="noopener noreferrer" href="https://videoclubsantutxu.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">VIDEO-CLUB SANTUTXU</a>
-                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">One of the projects I've liked the most. As a movie lover, creating an API from TMDB and also creating a new one in Supabase was really fun and instructive.</h3>
-                            <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
-                                <span>May 17, 2024</span>
-                                <span>Almost 10000 films</span>
-                            </div>
-                        </div>
-                    </article>
+                    
                     <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://pasos.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
                             <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/pasos.png" />
@@ -65,34 +94,7 @@ function Projects() {
                             </div>
                         </div>
                     </article>
-                    <article className="flex flex-col dark:bg-gray-50">
-                        <a rel="noopener noreferrer" href="https://roaring-florentine-1333cd.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/ping-pong.jpg" />
-                        </a>
-                        <div className="flex flex-col flex-1 p-6">
-                            <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-                            <a rel="noopener noreferrer" href="https://roaring-florentine-1333cd.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">DE-PING-A-PONG APP</a>
-                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">A very challenging project in which I created the backend with MongoDB, merging it with my partner into the frontend in order to display the information and having the chance to sign-up, login, and do the CRUD operations.</h3>
-                            <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
-                                <span>June 7, 2024</span>
-                                <span>+100 M people playing ping-pong</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article className="flex flex-col dark:bg-gray-50">
-                        <a rel="noopener noreferrer" href="https://angular-project-f-b.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
-                            <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="/images/Proyectos/Angular_full_color_logo.svg.png" />
-                        </a>
-                        <div className="flex flex-col flex-1 p-6">
-                            <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-                            <a rel="noopener noreferrer" href="https://angular-project-f-b.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">ANGULAR PROJECT</a>
-                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">My first project with Angular. Is a simple web in which there's displayed a list of products, which you can do the CRUD (create, read, update and delete) operations. It is connected to a database in MongoDB.</h3>
-                            <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
-                                <span>9 July, 2024</span>
-                                <span>Lots of meals</span>
-                            </div>
-                        </div>
-                    </article>
+                    
                 </div>
             </div>
         </section>
