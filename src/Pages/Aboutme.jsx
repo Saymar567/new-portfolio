@@ -72,13 +72,13 @@ function Aboutme() {
                                 <li className="flex gap-x-3">
                                     <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
-                                        <strong className="font-semibold text-gray-900">Frontend</strong> HTML, CSS, Tailwind, Javascript, React
+                                        <strong className="font-semibold text-gray-900">Frontend</strong> HTML, CSS, Tailwind, Bootstrap, Javascript, React
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
                                     <CogIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
-                                        <strong className="font-semibold text-gray-900">Frameworks</strong> Express, Node.js
+                                        <strong className="font-semibold text-gray-900">Frameworks</strong> Angular, Express, Node.js
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
