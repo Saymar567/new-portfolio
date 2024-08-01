@@ -4,10 +4,10 @@ import "../styles/aboutme.css"
 
 
 function Aboutme() {
-    const [transform, setTransform] = useState("/images/mikel1.jpg");
+    const [transform, setTransform] = useState("/images/mikel1.png");
 
     const changePhoto = () => {
-        setTransform(prevPhoto => prevPhoto === "/images/mikel1.jpg" ? "/images/mikel2.jpg" : "/images/mikel1.jpg")
+        setTransform(prevPhoto => prevPhoto === "/images/mikel1.png" ? "/images/mikel2.jpg" : "/images/mikel1.png")
     }
 
 
@@ -47,7 +47,7 @@ function Aboutme() {
                             <p className="text-base font-semibold leading-7 text-indigo-600">Saymar WD</p>
                             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">About me</h1>
                             <p className="mt-6 text-xl leading-8 text-gray-700">
-                                Hi! My name is Mikel. I'm a web developer. Well, and also historian. And a joker (but not a smoker). But, above all, a web developer. I was working in the public administration and decided to change my career. I made a huge step towards the tech field and came to Barcelona to do a course in web development. And why Saymar? Because that was the acronym of one of my parents' videoclub: Sagrario (mum's name) y (and in spanish) Miguel Ángel (dad's name) repetido (I'm the repeated one)
+                                Hi! My name is Mikel. I'm a web developer. Well, and also historian. And a joker (but not a smoker). But, above all, a web developer. I was working in the public administration and decided to change my career. I made a huge step towards the tech field and came to Barcelona to do a course in web development. And why Saymar? Because that was the acronym of one of my parents' business: Sagrario (mum's name) y (and in spanish) Miguel Ángel (dad's name) repetido (I'm the repeated one)
                             </p>
                             <p>
 
@@ -94,7 +94,7 @@ function Aboutme() {
                             </p>
                             <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Look behind you! A three headed monkey! </h3>
                             <p className="mt-6">
-                                <img src={transform} alt="to-monkey-island" className='vintage-image' style={{ width: "15vw", height: "30vh" }} />
+                                <img src={transform} alt="to-monkey-island" className='vintage-image' style={{ height: "30vh" }} />
                                 <button onClick={changePhoto} className='vintage-button' style={{ display: "block", margin: "0 auto" }}>Transform me</button>
 
                             </p>
