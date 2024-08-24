@@ -12,15 +12,14 @@ const VisitCounter = () => {
                 .single()
 
             if (error) { console.error("Error getting data", error); return }
-            if(data) {
+            if (data) {
                 const updatedCount = data.count + 1;
                 setVisits(updatedCount);
-console.log(data)
-console.log("lalala", updatedCount)
-                const {error: updateError} = await supabase
+
+                const { error: updateError } = await supabase
                 await supabase
                     .from('visits')
-                    .update({ count: updatedCount})
+                    .update({ count: updatedCount })
                     .eq('id', 1);
             }
         }
