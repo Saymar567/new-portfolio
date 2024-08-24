@@ -7,7 +7,7 @@ const VisitCounter = () => {
     useEffect(() => {
         const visitCount = async () => {
             const { data, error } = await supabase
-                .from('Visits')
+                .from('visits')
                 .select('count')
                 .single()
 
@@ -15,7 +15,7 @@ const VisitCounter = () => {
             else {
                 setVisits(data.count);
                 await supabase
-                    .from('Visits')
+                    .from('visits')
                     .update({ count: data.count + 1 })
                     .eq('id', 1);
             }
