@@ -15,7 +15,8 @@ const VisitCounter = () => {
             if(data) {
                 const updatedCount = data.count + 1;
                 setVisits(updatedCount);
-
+console.log(data)
+console.log("lalala", updatedCount)
                 const {error: updateError} = await supabase
                 await supabase
                     .from('visits')
