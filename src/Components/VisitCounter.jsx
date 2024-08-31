@@ -17,7 +17,6 @@ const VisitCounter = () => {
                 setVisits(updatedCount);
 
                 const { error: updateError } = await supabase
-                await supabase
                     .from('visits')
                     .update({ count: updatedCount })
                     .eq('id', 1);
