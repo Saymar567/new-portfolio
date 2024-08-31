@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import supabase from "../../supabaseClient"
 
 const VisitCounter = () => {
     const [visits, setVisits] = useState(0);
