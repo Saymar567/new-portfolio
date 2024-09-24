@@ -4,7 +4,7 @@ const MIN_RADIUS = 5;
 const DEPTH = 5;
 
 const calculateColor = () => {
-  return "#ffffff"; // Devuelve el color blanco
+  return "#ffffff"; 
 };
 
 const randomFromInterval = (min, max) => {
