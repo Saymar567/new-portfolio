@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar'
 import Projects from './Pages/Projects'
 import Footer from './Components/Footer'
 import CV from './Pages/CV'
+import NotFound from './Pages/NotFound'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,8 @@ function App() {
         <Route path="/aboutme" element={<Aboutme />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/cv" element={<CV />}/>
+        <Route path="*" element={<NotFound />}/>
+
       </Routes>
       <Footer />
     </>

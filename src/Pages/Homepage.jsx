@@ -1,11 +1,11 @@
 import ParticleRing from "../Components/ParticleRing"
-import StarField from "../Components/Starfield"
 import VisitCounter from "../Components/VisitCounter"
+import HeroSection from "../Components/HomeSection"
 
 function Homepage(){
     return(
         <>
-       <ParticleRing />
+       <HeroSection/>
        <div>
        <b><VisitCounter/></b>
        </div>

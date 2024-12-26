@@ -9,6 +9,22 @@ function Projects() {
                     {/*<p className="font-serif text-sm dark:text-gray-600">These are some of the projects I've been working on.</p>*/}
                 </div>
                 <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+                <article className="flex flex-col dark:bg-gray-50">
+                        <a rel="noopener noreferrer" href="https://photos-show.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
+                            <img alt="" className="object-contain w-full h-52 dark:bg-gray-500" src="/images/Proyectos/camera.png" />
+                        </a>
+                        <div className="flex flex-col flex-1 p-6">
+                            <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                            <a rel="noopener noreferrer" href="https://photos-show.netlify.app/" target="_blank" className="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">PHOTO SHOW</a>
+                            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">A simple web showing some photos from an API. I have used React + Vite to build the page.</h3>
+                            <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                                <span>24 November, 2024</span>
+                                <span>Nice photos</span>
+                            </div>
+                        </div>
+                    </article>
+
+
                     <article className="flex flex-col dark:bg-gray-50">
                         <a rel="noopener noreferrer" href="https://angular-project-f-b.netlify.app/" target="_blank" aria-label="Te nulla oportere reprimique his dolorum">
                             <img alt="" className="object-contain w-full h-52 dark:bg-gray-500" src="/images/Proyectos/Angular_full_color_logo.svg.png" />

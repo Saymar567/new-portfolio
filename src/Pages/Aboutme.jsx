@@ -1,6 +1,7 @@
 import { CloudArrowUpIcon, CogIcon, ServerIcon } from '@heroicons/react/20/solid'
 import { useState } from 'react'
 import "../styles/aboutme.css"
+import { Center } from '@react-three/drei';
 
 
 function Aboutme() {
@@ -13,96 +14,57 @@ function Aboutme() {
 
     return (
 
-        <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-            <div className="absolute inset-0 -z-10 overflow-hidden">
-                <svg
-                    className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-                    aria-hidden="true"
-                >
-                    <defs>
-                        <pattern
-                            id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-                            width={200}
-                            height={200}
-                            x="50%"
-                            y={-1}
-                            patternUnits="userSpaceOnUse"
-                        >
-                            <path d="M100 200V.5M.5 .5H200" fill="none" />
-                        </pattern>
-                    </defs>
-                    <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
-                        <path
-                            d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                            strokeWidth={0}
-                        />
-                    </svg>
-                    <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
-                </svg>
-            </div>
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-                <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-                    <div className="lg:pr-4">
-                        <div className="lg:max-w-lg">
-                            <p className="text-base font-semibold leading-7 text-indigo-600">Saymar WD</p>
-                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">About me</h1>
-                            <p className="mt-6 text-xl leading-8 text-gray-700">
-                                Hi! My name is Mikel. I'm a web developer. Well, and also historian. And a joker (but not a smoker). But, above all, a web developer. I was working in the public administration and decided to change my career. I made a huge step towards the tech field and came to Barcelona to do a course in web development. And why Saymar? Because that was the acronym of one of my parents' business: Sagrario (mum's name) y (and in spanish) Miguel Ángel (dad's name) repetido (I'm the repeated one)
-                            </p>
-                            <p>
+        <>
+            <div id="about" class="relative bg-white overflow-hidden mt-16">
+                <div class="max-w-7xl mx-auto">
+                    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                        <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+                            fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                            <polygon points="50,0 100,0 50,100 0,100"></polygon>
+                        </svg>
 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                    <img
-                        className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-                        src="/images/Aboutme.png"
-                        alt=""
-                    />
-                </div>
-                <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-                    <div className="lg:pr-4">
-                        <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-                            <p>
-                                I do have a lot of skills, but when talking about web development skills, I have studied front-end and back-end. These are some of the tools I have used and studied:
-                            </p>
-                            <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                                <li className="flex gap-x-3">
-                                    <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                    <span>
-                                        <strong className="font-semibold text-gray-900">Frontend</strong> HTML, CSS, Tailwind, Bootstrap, Javascript, React
-                                    </span>
-                                </li>
-                                <li className="flex gap-x-3">
-                                    <CogIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                    <span>
-                                        <strong className="font-semibold text-gray-900">Frameworks</strong> Angular, Express, Node.js
-                                    </span>
-                                </li>
-                                <li className="flex gap-x-3">
-                                    <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                    <span>
-                                        <strong className="font-semibold text-gray-900">Backend</strong> MongoDB, Mongoose, Supabase, SQL
-                                    </span>
-                                </li>
-                            </ul>
-                            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Only development skills? Of course not</h2>
-                            <p className="mt-6">
-                                I have experience in many fields. I would say, as my main goals, that I have been working as a researcher in the University of Basque Country (EHU) and as a manager of a train control station. But I have, as well, experience working directly with the client and leading teams.
-                            </p>
-                            <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Look behind you! A three headed monkey! </h3>
+                        <div class="pt-1"></div>
+
+                        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                            <div class="sm:text-center lg:text-left">
+                                <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
+                                    About me
+                                </h2>
+
+                                <p>
+                                    Hi! My name is Miguel Ángel, but everyone calls me Mikel. I'm a software developer. Well, and also historian. And a joker (but not a smoker). But, above all, a web developer.
+                                    </p>
+                                    <br></br>
+                                    <p>
+                                        I was working in the public administration and decided to change my career.
+                                        I made a huge step towards the tech field and came to Barcelona to do a course in web development, learning the fundamentals of HTML and CSS, as well as Javascript and React as library to create responsive web apps.
+                                        Also, I'm studying now a course in Java, using Spring as framework, to build strong and secured backend applications. I will finish the course in january.
+                                        Besides, I have a strong background in office work and team leadership, as outlined in my CV.
+                                        Moreover, I believe I possess very good soft skills dealing with people, bringing a good environmente in work and building good relationships with potential clients.
+                                    </p>
+                                    <br></br>
+                                    <p>
+                                        And what about me? Well, I used to play basketball for many years, so I love to watch basket matches. I like to play adventure videogames and my favorite one is <i>The Secret of Monkey Island</i> -will you transform me into one of that game's characters, please?.
+                                        As I have said earlier, I'm a historian and a traveller. You can guess what kind of trips I like, right?
+                                        And last, but not least, I'm from Bilbao, the capital of the world. And, of course, I'm a huge fan of Athletic Club de Bilbao.
+                                        Hope you enjoy my portfolio!
+                                    </p>
+                            </div>
+                            <p className="mt-12 text-1xl font-bold tracking-tight text-gray-900" style={{display: "flex", justifyContent: "center"}}>Look behind you! A three headed monkey! </p>
                             <p className="mt-6">
                                 <img src={transform} alt="to-monkey-island" className='vintage-image' style={{ height: "30vh" }} />
-                                <button onClick={changePhoto} className='vintage-button' style={{ display: "block", margin: "0 auto" }}>Transform me</button>
+                                <button onClick={changePhoto} className='vintage-button' style={{ display: "block", margin: "10px auto" }}>Transform me into a Monkey Island character</button>
 
                             </p>
-                        </div>
+                        </main>
                     </div>
                 </div>
+                <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+                    <img class="h-56 w-full object-contain object-top sm:h-72 md:h-96 lg:w-full lg:h-full"  src="/images/Me.jpg" alt="Mikel" />
+                </div>
             </div>
-        </div>
+
+        </>
     )
 }
 
