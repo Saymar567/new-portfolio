@@ -1,7 +1,7 @@
 .hero-section {
     position: relative;
     width: 100%;
-    height: 100vh; /* Ocupa toda la pantalla */
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,9 +19,9 @@
   .background-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
+    object-fit: cover; 
     opacity: 0;
-    animation: fadeInImage 1.5s forwards; /* Transición suave para la imagen */
+    animation: fadeInImage 1.5s forwards; 
   }
   
   .text-container {
@@ -38,17 +38,17 @@
   }
 
   .text-container h1 {
-    font-size: 4rem; /* Tamaño más grande para el título principal */
+    font-size: 4rem; 
     margin: 10px 0;
   }
   
   .text-container h2 {
-    font-size: 2.5rem; /* Tamaño ajustado para el subtítulo */
+    font-size: 2.5rem; 
     margin: 8px 0;
   }
   
   .text-container p {
-    font-size: 1.8rem; /* Tamaño ajustado para el párrafo */
+    font-size: 1.8rem; 
     margin: 5px 0;
   }
   

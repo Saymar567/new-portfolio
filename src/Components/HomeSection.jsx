@@ -6,8 +6,8 @@ const HeroSection = () => {
   const [showText, setShowText] = useState(false);
 
   useEffect(() => {
-    const imageTimer = setTimeout(() => setShowImage(true), 500); // Aparece la imagen después de 500ms
-    const textTimer = setTimeout(() => setShowText(true), 1500); // Aparece el texto después de 1500ms
+    const imageTimer = setTimeout(() => setShowImage(true), 500); 
+    const textTimer = setTimeout(() => setShowText(true), 1500); 
     return () => {
       clearTimeout(imageTimer);
       clearTimeout(textTimer);
