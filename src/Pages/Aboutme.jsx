@@ -40,7 +40,7 @@ function Aboutme() {
                                         I made a huge step towards the tech field and came to Barcelona to do a course in web development, learning the fundamentals of HTML and CSS, as well as Javascript and React as library to create responsive web apps.
                                         Also, I'm studying now a course in Java, using Spring as framework, to build strong and secured backend applications. I will finish the course in january.
                                         Besides, I have a strong background in office work and team leadership, as outlined in my CV.
-                                        Moreover, I believe I possess very good soft skills dealing with people, bringing a good environmente in work and building good relationships with potential clients.
+                                        Moreover, I believe I possess very good soft skills dealing with people, bringing a good environment in work and building good relationships with potential clients.
                                     </p>
                                     <br></br>
                                     <p>
