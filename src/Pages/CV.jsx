@@ -55,7 +55,7 @@ function CV() {
                             <span class="text-gray-700 font-bold">Backend developer</span>
                             <p>
                                 <span class="text-gray-700 mr-2">at <strong>Icnea</strong></span>
-                                <span class="text-gray-700">2025</span>
+                                <span class="text-gray-700">2025-PRESENT</span>
                             </p>
                         </div>
                         <p class="mt-2">
