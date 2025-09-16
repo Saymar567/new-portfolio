@@ -14,7 +14,7 @@ function CV() {
 
                         </img>
                         <h1 class="text-xl font-bold">Miguel Ángel Jiménez</h1>
-                        <p class="text-gray-700">Software Developer</p>
+                        <p class="text-gray-700">Fullstack Developer</p>
                         <div class="mt-6 flex flex-wrap gap-4 justify-center">
                             <a href="mailto: majc1907@gmail.com" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Mail me</a>
                             <a href="CV.pdf" download="MA_Jimenez_CV" class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Download CV</a>
@@ -31,11 +31,15 @@ function CV() {
                             <li class="mb-2">Node.js</li>
                             <li class="mb-2">JEE</li>
                             <li class="mb-2">Springboot</li>
+                            <li class="mb-2">Visual Basic</li>
+                            <li class="mb-2">C#</li>
+                            <li class="mb-2">.NET Framework</li>
                             <li class="mb-2">Tailwind Css</li>
                             <li class="mb-2">MySQL</li>
                             <li class="mb-2">MongoDB</li>
                             <li class="mb-2">Eclipse</li>
                             <li class="mb-2">Visual Studio Code</li>
+                            <li class="mb-2">Visual Studio</li>
                             <li class="mb-2">IntelliJ</li>
                             <li class="mb-2">SAP</li>
                         </ul>
@@ -46,6 +50,18 @@ function CV() {
                 <div class="bg-white shadow rounded-lg p-6">
             
                     <h2 class="text-xl font-bold mt-6 mb-4">Experience</h2>
+                    <div class="mb-6">
+                        <div class="flex justify-between flex-wrap gap-2 w-full">
+                            <span class="text-gray-700 font-bold">Backend developer</span>
+                            <p>
+                                <span class="text-gray-700 mr-2">at <strong>Icnea</strong></span>
+                                <span class="text-gray-700">2025</span>
+                            </p>
+                        </div>
+                        <p class="mt-2">
+                        Backend developer using .NET environment: VB, C#, SQL Server, Postman, Bitbucket, Jira, Confluence. Developing and integrating API's and writing reusable, scalable code.
+                        </p>
+                    </div>
                     <div class="mb-6">
                         <div class="flex justify-between flex-wrap gap-2 w-full">
                             <span class="text-gray-700 font-bold">Web Developer - TA</span>
