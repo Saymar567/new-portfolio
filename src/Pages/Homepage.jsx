@@ -7,7 +7,7 @@ function Homepage(){
         <>
        <HeroSection/>
        <div>
-       <b><VisitCounter/></b>
+       {/* <b><VisitCounter/></b> */}
        </div>
         </>
     )
